@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Client/Client.csproj" />
+  <Project Path="ClientLib/ClientLib.csproj" />
+  <Project Path="Protocol/Protocol.csproj" />
+  <Project Path="Server/Server.csproj" />
+</Solution>

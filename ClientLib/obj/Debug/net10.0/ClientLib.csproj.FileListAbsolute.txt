@@ -1,0 +1,15 @@
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\bin\Debug\net10.0\ClientLib.deps.json
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\bin\Debug\net10.0\ClientLib.dll
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\bin\Debug\net10.0\ClientLib.pdb
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\bin\Debug\net10.0\Protocol.dll
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\bin\Debug\net10.0\Protocol.pdb
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.csproj.AssemblyReference.cache
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.AssemblyInfoInputs.cache
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.AssemblyInfo.cs
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.csproj.CoreCompileInputs.cache
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.csproj.Up2Date
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.dll
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\refint\ClientLib.dll
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ClientLib.pdb
+C:\!projects\BagiraChatServer_MichalBeno\ClientLib\obj\Debug\net10.0\ref\ClientLib.dll
