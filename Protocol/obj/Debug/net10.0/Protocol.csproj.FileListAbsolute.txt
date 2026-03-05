@@ -33,3 +33,15 @@ C:\!onedrive\OneDrive\!projects\Bagira_Chat_server_MichalBeno\Protocol\bin\Debug
 C:\!onedrive\OneDrive\!projects\Bagira_Chat_server_MichalBeno\Protocol\bin\Debug\net10.0\Protocol.dll
 C:\!onedrive\OneDrive\!projects\Bagira_Chat_server_MichalBeno\Protocol\bin\Debug\net10.0\Protocol.pdb
 C:\!onedrive\OneDrive\!projects\Bagira_Chat_server_MichalBeno\Protocol\obj\Debug\net10.0\ref\Protocol.dll
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\bin\Debug\net10.0\Protocol.deps.json
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\bin\Debug\net10.0\Protocol.dll
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\bin\Debug\net10.0\Protocol.pdb
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.AssemblyInfoInputs.cache
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.AssemblyInfo.cs
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.csproj.CoreCompileInputs.cache
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.sourcelink.json
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.dll
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\refint\Protocol.dll
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\Protocol.pdb
+C:\!onedrive\OneDrive\!projects\Bagira\Protocol\obj\Debug\net10.0\ref\Protocol.dll

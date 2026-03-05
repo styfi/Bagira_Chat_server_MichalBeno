@@ -1,4 +1,5 @@
-﻿using Server.CommandHandling;
+﻿using Protocol;
+using Server.CommandHandling;
 
 namespace Server
 {
@@ -20,14 +21,14 @@ namespace Server
             var cmd = parts[0].ToUpperInvariant();
             var arg = parts.Length > 1 ? parts[1] : "";
 
-            return cmd switch
-            {
-                "LOGIN" => new LoginCommand(arg.Trim()),
-                "PUBLIC" => new PublicCommand(Server, arg),
-                "PRIVATE" => ParsePrivate(arg),
+            if (cmd == CommandNames.Login)
+                return new LoginCommand(arg.Trim());
+            if (cmd == CommandNames.Public)
+                return new PublicCommand(Server, arg);
+            if (cmd == CommandNames.Private)
+                return ParsePrivate(arg);
 
-                _ => null
-            };
+            return null;
         }
 
         private IChatCommand? ParsePrivate(string arg)
