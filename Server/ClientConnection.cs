@@ -9,7 +9,7 @@ namespace Server
         private readonly TcpClient _client;
         private readonly ChatServer _server;
         private readonly ITransport _transport;
-        private readonly CommandDispatcher _dispatcher;
+        private readonly CommandParser _parser;
 
         private readonly SemaphoreSlim _writeLock = new(1, 1);
 
@@ -24,7 +24,7 @@ namespace Server
 
             var _stream = _client.GetStream();
             _transport = new TextTransport(_stream);
-            _dispatcher = new CommandDispatcher(server);
+            _parser = new CommandParser(server);
         }
 
         public bool SetUserName(string name)
@@ -64,11 +64,11 @@ namespace Server
                         break;
                     }
 
-                    var command = CommandParser.Parse(line);
+                    var command = _parser.Parse(line);
 
                     if (command != null)
                     {
-                        await _dispatcher.DispatchAsync(this, command, ct);
+                        await command.HandleAsync(this, ct);
                     }
                     else
                     {

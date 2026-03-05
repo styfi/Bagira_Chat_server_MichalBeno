@@ -1,8 +1,17 @@
-﻿namespace Protocol
+﻿using Server.CommandHandling;
+
+namespace Server
 {
-    public static class CommandParser
+    public class CommandParser
     {
-        public static IChatCommand? Parse(string line)
+        private ChatServer Server { get; }
+
+        public CommandParser(ChatServer server)
+        {
+            Server = server;
+        }
+
+        public IChatCommand? Parse(string line)
         {
             if (string.IsNullOrWhiteSpace(line))
                 return null;
@@ -14,19 +23,19 @@
             return cmd switch
             {
                 "LOGIN" => new LoginCommand(arg.Trim()),
-                "PUBLIC" => new PublicCommand(arg),
+                "PUBLIC" => new PublicCommand(Server, arg),
                 "PRIVATE" => ParsePrivate(arg),
 
                 _ => null
             };
         }
 
-        private static IChatCommand? ParsePrivate(string arg)
+        private IChatCommand? ParsePrivate(string arg)
         {
             var parts = arg.Split(' ', 2, StringSplitOptions.RemoveEmptyEntries);
             if (parts.Length < 2) return null;
 
-            return new PrivateCommand(parts[0], parts[1]);
+            return new PrivateCommand(Server, parts[0], parts[1]);
         }
     }
 }

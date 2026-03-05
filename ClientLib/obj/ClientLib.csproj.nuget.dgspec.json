@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\!projects\\BagiraChatServer_MichalBeno\\ClientLib\\ClientLib.csproj": {}
+    "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\ClientLib\\ClientLib.csproj": {}
   },
   "projects": {
-    "C:\\!projects\\BagiraChatServer_MichalBeno\\ClientLib\\ClientLib.csproj": {
+    "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\ClientLib\\ClientLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\!projects\\BagiraChatServer_MichalBeno\\ClientLib\\ClientLib.csproj",
+        "projectUniqueName": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\ClientLib\\ClientLib.csproj",
         "projectName": "ClientLib",
-        "projectPath": "C:\\!projects\\BagiraChatServer_MichalBeno\\ClientLib\\ClientLib.csproj",
+        "projectPath": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\ClientLib\\ClientLib.csproj",
         "packagesPath": "C:\\Users\\mbmic\\.nuget\\packages\\",
-        "outputPath": "C:\\!projects\\BagiraChatServer_MichalBeno\\ClientLib\\obj\\",
+        "outputPath": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\ClientLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\Protocol.csproj": {
-                "projectPath": "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\Protocol.csproj"
+              "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\Protocol.csproj": {
+                "projectPath": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\Protocol.csproj"
               }
             }
           }
@@ -347,14 +347,14 @@
         }
       }
     },
-    "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\Protocol.csproj": {
+    "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\Protocol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\Protocol.csproj",
+        "projectUniqueName": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\Protocol.csproj",
         "projectName": "Protocol",
-        "projectPath": "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\Protocol.csproj",
+        "projectPath": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\Protocol.csproj",
         "packagesPath": "C:\\Users\\mbmic\\.nuget\\packages\\",
-        "outputPath": "C:\\!projects\\BagiraChatServer_MichalBeno\\Protocol\\obj\\",
+        "outputPath": "C:\\!onedrive\\OneDrive\\!projects\\Bagira_Chat_server_MichalBeno\\Protocol\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
